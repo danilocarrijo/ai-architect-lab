@@ -8,8 +8,9 @@ node_modules/
 .env
 .env.*
 
-# vídeos gerados e arquivos temporários (reproduzíveis com os scripts de videos/)
-videos/saida/
+# vídeos: sobem só os MP4 (videos/saida/); scripts e README dos vídeos ficam locais
+videos/*.py
+videos/README.md
 videos/_work/
 videos/__pycache__/
 __pycache__/
