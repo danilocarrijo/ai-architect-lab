@@ -1,0 +1,27 @@
+{
+    "name": "ai-architect-lab",
+    "version": "1.0.0",
+    "description": "Helpdesk RAG + MCP + Agent (projeto de estudo)",
+    "main": "src/cli.js",
+    "scripts": {
+        "start": "node src/cli.js",
+        "ingest": "node src/cli.js ingest",
+        "eval": "node src/eval/run.js",
+        "test": "node --test",
+        "mcp": "node src/mcp/server.js"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@anthropic-ai/sdk": "^1.8.0",
+        "@langchain/anthropic": "^1.6.4",
+        "@langchain/core": "^1.4.0",
+        "@langchain/google-genai": "^2.3.6",
+        "@langchain/langgraph": "^1.7.3",
+        "@modelcontextprotocol/sdk": "^1.32.2",
+        "langchain": "^1.6.5",
+        "zod": "^4.6.7"
+    },
+    "type": "module"
+}

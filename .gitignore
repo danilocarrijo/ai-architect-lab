@@ -1,0 +1,24 @@
+# dependências
+node_modules/
+
+# índice gerado por `npm run ingest` (reconstruído automaticamente)
+.cache/
+
+# segredos
+.env
+.env.*
+
+# vídeos gerados e arquivos temporários (reproduzíveis com os scripts de videos/)
+videos/saida/
+videos/_work/
+videos/__pycache__/
+__pycache__/
+*.pyc
+
+# ambientes virtuais Python
+.venv/
+venv/
+
+# sistema e editor
+.DS_Store
+Thumbs.db
